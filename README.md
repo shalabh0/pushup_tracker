@@ -1,16 +1,28 @@
-# pushup_tracker
+#  Push-Up Tracker App
 
-A new Flutter project.
+A simple and effective Flutter app to help you track your push-ups daily and stay consistent with your fitness goals.
 
-## Getting Started
+## 📱 Features
 
-This project is a starting point for a Flutter application.
+-  Track two push-up sets (Set 1 & Set 2)
+-  Rest timer between sets
+-  Daily goal progress bar
+-  Daily statistics saved using Shared Preferences
+-  Session reset support
+-  Statistics screen with progress graph
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Getting Started
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Prerequisites
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- [Flutter SDK](https://flutter.dev/docs/get-started/install)
+- Android Studio / VS Code
+
+### Run Locally
+
+```bash
+git clone https://github.com/yourusername/pushup_tracker.git
+cd pushup_tracker
+flutter pub get
+flutter run
+
